@@ -49,16 +49,12 @@ const SinglePage = () => {
                 evidence-based, patient-centred care.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-centre lg:justify-start">
-                <button
-                  onClick={() =>
-                    document
-                      .getElementById("contact")
-                      ?.scrollIntoView({ behavior: "smooth", block: "start" })
-                  }
+                <a
+                  href="https://share.google/SUTyWWduaIEwU25z7"
                   className="bg-white text-blue-800 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colours"
                 >
                   Book an Appointment
-                </button>
+                </a>
                 <button
                   onClick={() =>
                     document
