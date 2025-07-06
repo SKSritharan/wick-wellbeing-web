@@ -200,7 +200,7 @@ const SinglePage = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
               Our Services
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-600 mx-auto">
               Dr. Wick offers comprehensive medical care with a focus on
               preventative health, evidence-based treatment, and compassionate
               patient care.
@@ -290,7 +290,7 @@ const SinglePage = () => {
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
               Latest Health Articles
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-600 mx-auto">
               Stay informed with the latest insights on health, wellness, and
               medical care from Dr. Wick's expertise.
             </p>
@@ -350,10 +350,15 @@ const SinglePage = () => {
               <h3 className="text-2xl font-semibold mb-4">
                 Ready to experience compassionate care?
               </h3>
-              <p className="mb-6">Book an appointment with Dr. Wick today</p>
-              <button className="bg-white text-blue-800 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colours font-medium">
+              <p className="mb-6">
+                Book an appointment with Dr. Maithri Wickramasinghe today
+              </p>
+              <a
+                href="https://share.google/SUTyWWduaIEwU25z7"
+                className="bg-white text-blue-800 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colours font-medium"
+              >
                 Contact Us
-              </button>
+              </a>
             </div>
           </div>
         </div>

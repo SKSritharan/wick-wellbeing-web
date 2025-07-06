@@ -1,20 +1,30 @@
-
-import Header from '@/components/Header';
-import ServiceCard from '@/components/ServiceCard';
-import DoctorIcon from '@/components/DoctorIcon';
-import { Shield, Activity, User, Stethoscope, Calendar, UserCheck, Heart } from 'lucide-react';
+import Header from "@/components/Header";
+import ServiceCard from "@/components/ServiceCard";
+import DoctorIcon from "@/components/DoctorIcon";
+import {
+  Shield,
+  Activity,
+  User,
+  Stethoscope,
+  Calendar,
+  UserCheck,
+  Heart,
+} from "lucide-react";
 
 const Services = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-centre mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-6">Our Services</h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Dr. Wick offers comprehensive medical care with a focus on preventative health, 
-            evidence-based treatment, and compassionate patient care.
+          <h1 className="text-4xl font-bold text-gray-800 mb-6">
+            Our Services
+          </h1>
+          <p className="text-lg text-gray-600 mx-auto">
+            Dr. Wick offers comprehensive medical care with a focus on
+            preventative health, evidence-based treatment, and compassionate
+            patient care.
           </p>
         </div>
 
@@ -28,7 +38,7 @@ const Services = () => {
               "Cancer screening guidance",
               "Smoking cessation support",
               "Men's health screening",
-              "Contraception and family planning"
+              "Contraception and family planning",
             ]}
           />
 
@@ -40,7 +50,7 @@ const Services = () => {
               "Skin lesion and mole excisions",
               "Treatment for minor cuts and injuries",
               "Minor surgeries including ingrown toe nails",
-              "Minimally invasive treatment of haemorrhoids including banding procedures"
+              "Minimally invasive treatment of haemorrhoids including banding procedures",
             ]}
           />
 
@@ -51,7 +61,7 @@ const Services = () => {
             features={[
               "Thorough annual health checks",
               "Medication optimisation reviews",
-              "Treatment alignment with latest guidelines"
+              "Treatment alignment with latest guidelines",
             ]}
           />
 
@@ -63,7 +73,7 @@ const Services = () => {
               "Hypertension management",
               "Diabetes care",
               "Asthma and COPD support",
-              "Mental health support"
+              "Mental health support",
             ]}
           />
 
@@ -75,7 +85,7 @@ const Services = () => {
               "Physical activity planning",
               "Nutrition counselling",
               "Stress management techniques",
-              "Work-life balance strategies"
+              "Work-life balance strategies",
             ]}
           />
 
@@ -87,16 +97,19 @@ const Services = () => {
               "Prostate health screening",
               "Testosterone assessments",
               "Sexual health consultations",
-              "Male contraception options"
+              "Male contraception options",
             ]}
           />
         </div>
 
         {/* Call to Action */}
         <div className="bg-white rounded-lg shadow-lg p-8 text-centre">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Ready to Get Started?</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+            Ready to Get Started?
+          </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Book an appointment today to discuss how Dr. Wick can help with your health goals.
+            Book an appointment today to discuss how Dr. Wick can help with your
+            health goals.
           </p>
           <button className="bg-blue-800 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colours font-medium">
             Book an Appointment
