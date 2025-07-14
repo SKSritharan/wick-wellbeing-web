@@ -72,7 +72,7 @@ const SinglePage = () => {
                 <img
                   src="/uploads/c7629ccb-c6d3-46ac-91aa-9f631e9a08f6.png"
                   alt="Dr. Maithri Wickramasinghe"
-                  className="w-80 h-96 lg:w-96 lg:h-[450px] object-cover rounded-lg shadow-2xl border-4 border-white/20"
+                  className="w-80 h-96 lg:w-96 sm:h-[500px] object-cover rounded-lg shadow-2xl border-4 border-white/20"
                 />
                 <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-blue-500/20 to-transparent"></div>
               </div>
@@ -330,15 +330,15 @@ const SinglePage = () => {
               <div className="space-y-4">
                 <p className="flex items-centre text-blue-100">
                   <span className="mr-3">📞</span>
-                  [Phone Number]
+                  (03) 9834 7600
                 </p>
-                <p className="flex items-centre text-blue-100">
+                {/* <p className="flex items-centre text-blue-100">
                   <span className="mr-3">📧</span>
                   [Email Address]
-                </p>
+                </p> */}
                 <p className="flex items-centre text-blue-100">
                   <span className="mr-3">📍</span>
-                  [Clinic Address]
+                  124-126 Camberwell Road Hawthorn East, VIC 3123.
                 </p>
               </div>
             </div>
@@ -391,9 +391,11 @@ const SinglePage = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
-              <p className="text-gray-300 mb-2">📞 [Phone Number]</p>
-              <p className="text-gray-300 mb-2">📧 [Email Address]</p>
-              <p className="text-gray-300">📍 [Clinic Address]</p>
+              <p className="text-gray-300 mb-2">📞 (03) 9834 7600</p>
+              {/* <p className="text-gray-300 mb-2">📧 [Email Address]</p> */}
+              <p className="text-gray-300">
+                📍 124-126 Camberwell Road Hawthorn East, VIC 3123.
+              </p>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-centre">
