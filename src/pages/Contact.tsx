@@ -114,13 +114,13 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://share.google/SUTyWWduaIEwU25z7"
+              href="tel:+61398347600"
               className="bg-white text-blue-800 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colours"
             >
               Book an Appointment
             </a>
             <a
-              href="tel:0398347600"
+              href="tel:+61398347600"
               className="border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-blue-800 transition-colors font-medium"
             >
               Call Now

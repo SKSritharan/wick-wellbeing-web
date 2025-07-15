@@ -114,9 +114,11 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-4">
                 Ready to experience compassionate care?
               </h3>
-              <p className="mb-6">Book an appointment with Dr. Maithri Wickramasinghe today</p>
+              <p className="mb-6">
+                Book an appointment with Dr. Maithri Wickramasinghe today
+              </p>
               <a
-                href="https://share.google/SUTyWWduaIEwU25z7"
+                href="tel:+61398347600"
                 className="bg-white text-blue-800 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium"
               >
                 Contact Us

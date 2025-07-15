@@ -50,7 +50,7 @@ const SinglePage = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-centre lg:justify-start">
                 <a
-                  href="https://share.google/SUTyWWduaIEwU25z7"
+                  href="tel:+61398347600"
                   className="bg-white text-blue-800 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colours"
                 >
                   Book an Appointment
@@ -282,9 +282,9 @@ const SinglePage = () => {
       {/* Blog Section */}
       <section id="blog" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-centre mb-12">
+          <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
-              Latest Health Articles
+              Invest in Your Health Today
             </h2>
             <p className="text-lg text-gray-600 mx-auto">
               Stay informed with the latest insights on health, wellness, and
@@ -330,7 +330,7 @@ const SinglePage = () => {
               <div className="space-y-4">
                 <p className="flex items-centre text-blue-100">
                   <span className="mr-3">📞</span>
-                  (03) 9834 7600
+                  +61 3 9834-7600
                 </p>
                 {/* <p className="flex items-centre text-blue-100">
                   <span className="mr-3">📧</span>
@@ -350,7 +350,7 @@ const SinglePage = () => {
                 Book an appointment with Dr. Maithri Wickramasinghe today
               </p>
               <a
-                href="https://share.google/SUTyWWduaIEwU25z7"
+                href="tel:+61398347600"
                 className="bg-white text-blue-800 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colours font-medium"
               >
                 Contact Us
@@ -391,7 +391,7 @@ const SinglePage = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
-              <p className="text-gray-300 mb-2">📞 (03) 9834 7600</p>
+              <p className="text-gray-300 mb-2">📞 +61 3 9834-7600</p>
               {/* <p className="text-gray-300 mb-2">📧 [Email Address]</p> */}
               <p className="text-gray-300">
                 📍 124-126 Camberwell Road Hawthorn East, VIC 3123.

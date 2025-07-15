@@ -87,7 +87,7 @@ const BlogArticle = () => {
         />
 
         <a
-          href="https://share.google/SUTyWWduaIEwU25z7"
+          href="tel:+61398347600"
           className="bg-blue-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colours"
         >
           Book an Appointment
