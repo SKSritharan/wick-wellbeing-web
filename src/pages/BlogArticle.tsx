@@ -87,7 +87,9 @@ const BlogArticle = () => {
         />
 
         <a
-          href="tel:+61398347600"
+          href="https://www.ipn.com.au/gp/vic-hawthorn-east-camberwell-road-medical-practice/our-doctors/dr-maithri-wickramasinge/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-blue-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colours"
         >
           Book an Appointment

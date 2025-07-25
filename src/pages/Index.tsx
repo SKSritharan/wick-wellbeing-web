@@ -24,7 +24,8 @@ const Index = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-centre lg:justify-start">
                 <a
-                  href="tel:+61398347600"
+                  href="https://www.ipn.com.au/gp/vic-hawthorn-east-camberwell-road-medical-practice/our-doctors/dr-maithri-wickramasinge/"
+                  target="_blank"
                   className="bg-white text-blue-800 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colours"
                 >
                   Book an Appointment
