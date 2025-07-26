@@ -14,8 +14,17 @@ export const blogArticles: BlogArticle[] = [
     id: "take-charge-your-health",
     title:
       "Take Charge of Your Health: Your GP Is Your Partner in Lifelong Wellbeing",
-    excerpt:
-      "Regular visits to your GP aren't just about fixing problems—they’re about staying well, preventing illness, and living fully. Whether you’re managing a condition or checking in for peace of mind, proactive care supports lifelong health and confidence.",
+    excerpt: `<ul class="list-disc pl-6 mb-4 space-y-2">
+      <li class="mb-2">🫁 Asthma Care: Stay in Control, Breathe with Confidence</li>
+      <li class="mb-2">🧪 Diabetes Management: Take Charge Before Complications Begin</li>
+      <li class="mb-2">⚖️ Weight Management: Personalised Support for Whole-Body Health</li>
+      <li class="mb-2">🚭 Quit Smoking: Support That Makes It Stick</li>
+      <li class="mb-2">👨‍⚕️ Men's Health: Straightforward, Supportive Care</li>
+      <li class="mb-2">💡 Haemorrhoid Relief: Gentle Solutions, Real Results</li>
+      <li class="mb-2">🔄 Contraception: Choices That Fit Your Life and Health</li>
+      <li class="mb-2">💉 Immunisation: Lifelong Protection Starts Here</li>
+      <li class="mb-2">🗓️ Why It All Matters: Your GP Is Your Health Ally</li>
+      `,
     coverImage:
       "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=400&fit=crop",
     content: `

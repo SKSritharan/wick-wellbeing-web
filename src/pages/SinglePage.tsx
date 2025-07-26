@@ -17,7 +17,7 @@ const SinglePage = () => {
   const navigate = useNavigate();
 
   const sections = [
-    { id: "home", label: "Home" },
+    { id: "home", label: "Invest in your Health" },
     { id: "about", label: "About Dr. Wick" },
     { id: "services", label: "Services" },
     { id: "blog", label: "Health Articles" },
