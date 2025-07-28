@@ -44,14 +44,25 @@ const BlogArticle = () => {
       <Header />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Back Button */}
-        <button
-          onClick={() => navigate("/")}
-          className="flex items-centre gap-2 text-blue-800 hover:text-blue-600 mb-8 transition-colours"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Home
-        </button>
+        {/* Header with Back Button and Book Appointment */}
+        <div className="flex justify-between items-center mb-8">
+          <button
+            onClick={() => navigate("/")}
+            className="flex items-centre gap-2 text-blue-800 hover:text-blue-600 transition-colours"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </button>
+
+          <a
+            href="https://www.ipn.com.au/gp/vic-hawthorn-east-camberwell-road-medical-practice/our-doctors/dr-maithri-wickramasinge/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colours"
+          >
+            Book an Appointment
+          </a>
+        </div>
 
         {/* Cover Image */}
         <div className="h-64 md:h-96 bg-gray-200 rounded-lg overflow-hidden mb-8">
@@ -85,15 +96,6 @@ const BlogArticle = () => {
           className="prose prose-lg max-w-none text-gray-700 mb-12"
           dangerouslySetInnerHTML={{ __html: article.content }}
         />
-
-        <a
-          href="https://www.ipn.com.au/gp/vic-hawthorn-east-camberwell-road-medical-practice/our-doctors/dr-maithri-wickramasinge/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colours"
-        >
-          Book an Appointment
-        </a>
 
         {/* Navigation */}
         <div className="border-t border-gray-200 pt-8">
