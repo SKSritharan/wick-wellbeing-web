@@ -25,7 +25,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ article, onClick }) => {
           {article.title}
         </h3>
         <div
-          className="text-gray-600 mb-4 line-clamp-3"
+          className="text-gray-600 mb-4"
           dangerouslySetInnerHTML={{ __html: article.excerpt }}
         />
         <div className="flex items-centre justify-between text-sm text-gray-500">

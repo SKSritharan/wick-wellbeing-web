@@ -8,10 +8,10 @@ const Header = () => {
   const navigate = useNavigate();
 
   const navItems = [
-    { to: "/#home", label: "Invest in your Health", sectionId: "home" },
+    { to: "/#home", label: "Home", sectionId: "home" },
     { to: "/#about", label: "About Dr. Wick", sectionId: "about" },
     { to: "/#services", label: "Services", sectionId: "services" },
-    { to: "/#blog", label: "Health Articles", sectionId: "blog" },
+    { to: "/#blog", label: "Invest in your Health", sectionId: "blog" },
     { to: "/#contact", label: "Contact", sectionId: "contact" },
   ];
 
