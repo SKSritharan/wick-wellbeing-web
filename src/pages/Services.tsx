@@ -19,7 +19,7 @@ const Services = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-centre mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-6">
-            Our Services
+            Comprehensive Medical Services
           </h1>
           <p className="text-lg text-gray-600 mx-auto">
             Dr. Wick offers comprehensive medical care with a focus on
@@ -28,6 +28,88 @@ const Services = () => {
           </p>
         </div>
 
+        {/* Specific Services Grid */}
+        <div className="grid lg:grid-cols-2 gap-8 mb-16">
+          <ServiceCard
+            icon={<Heart className="w-8 h-8 text-red-600" />}
+            title="Mental Health Services"
+            description="Comprehensive mental health support and counselling services for patients of all ages."
+            features={[
+              "Depression and anxiety management",
+              "Stress and burnout counselling",
+              "Mental health care plans",
+              "Referrals to specialists when needed",
+              "Ongoing mental health support",
+            ]}
+          />
+
+          <ServiceCard
+            icon={<Shield className="w-8 h-8 text-green-600" />}
+            title="Skin Check Services"
+            description="Professional skin cancer screening and dermatological assessments to protect your health."
+            features={[
+              "Full body skin examinations",
+              "Mole and lesion assessments",
+              "Skin cancer screening",
+              "Early detection programs",
+              "Dermatology referrals",
+            ]}
+          />
+
+          <ServiceCard
+            icon={<Activity className="w-8 h-8 text-blue-600" />}
+            title="Diabetes Management"
+            description="Expert diabetes care, monitoring, and lifestyle management support for optimal health outcomes."
+            features={[
+              "Blood sugar monitoring",
+              "HbA1c testing and management",
+              "Diabetes education and support",
+              "Lifestyle modification guidance",
+              "Complication prevention",
+            ]}
+          />
+
+          <ServiceCard
+            icon={<Stethoscope className="w-8 h-8 text-purple-600" />}
+            title="Asthma Care"
+            description="Complete asthma management including action plans and medication reviews for better breathing."
+            features={[
+              "Asthma action plans",
+              "Spirometry testing",
+              "Medication reviews",
+              "Trigger identification",
+              "COPD support",
+            ]}
+          />
+
+          <ServiceCard
+            icon={<User className="w-8 h-8 text-indigo-600" />}
+            title="Men's Health"
+            description="Specialised care addressing the unique health needs and concerns of men at all life stages."
+            features={[
+              "Prostate health screening",
+              "Testosterone assessments",
+              "Sexual health consultations",
+              "Male contraception options",
+              "Men's mental health support",
+            ]}
+          />
+
+          <ServiceCard
+            icon={<UserCheck className="w-8 h-8 text-orange-600" />}
+            title="Contraception Services"
+            description="Family planning advice and contraceptive options for all life stages and preferences."
+            features={[
+              "Contraceptive consultations",
+              "IUD insertion and removal",
+              "Implant services",
+              "Emergency contraception",
+              "Family planning advice",
+            ]}
+          />
+        </div>
+
+        {/* Additional Services */}
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
           <ServiceCard
             icon={<Shield className="w-8 h-8 text-green-600" />}
@@ -37,8 +119,8 @@ const Services = () => {
               "Weight loss and healthy living advice",
               "Cancer screening guidance",
               "Smoking cessation support",
-              "Men's health screening",
-              "Contraception and family planning",
+              "Vaccination programs",
+              "Health check-ups",
             ]}
           />
 
@@ -62,18 +144,8 @@ const Services = () => {
               "Thorough annual health checks",
               "Medication optimisation reviews",
               "Treatment alignment with latest guidelines",
-            ]}
-          />
-
-          <ServiceCard
-            icon={<Stethoscope className="w-8 h-8 text-purple-600" />}
-            title="Chronic Disease & General Care"
-            description="Ongoing management and support for various health conditions with personalised care plans."
-            features={[
-              "Hypertension management",
-              "Diabetes care",
-              "Asthma and COPD support",
-              "Mental health support",
+              "Comprehensive health assessments",
+              "Immunization updates",
             ]}
           />
 
@@ -86,18 +158,7 @@ const Services = () => {
               "Nutrition counselling",
               "Stress management techniques",
               "Work-life balance strategies",
-            ]}
-          />
-
-          <ServiceCard
-            icon={<User className="w-8 h-8 text-indigo-600" />}
-            title="Men's Health"
-            description="Specialised care addressing the unique health needs and concerns of men at all life stages."
-            features={[
-              "Prostate health screening",
-              "Testosterone assessments",
-              "Sexual health consultations",
-              "Male contraception options",
+              "Sleep health optimization",
             ]}
           />
         </div>
