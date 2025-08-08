@@ -27,9 +27,10 @@ const Index = () => {
                 Your Local Family GP in Camberwell & Hawthorn East
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Dr. Maithri Wickramasinghe (MBChB, MRCGP, FRACGP) – UK-trained
-                and Melbourne-based General Practitioner committed to
-                evidence-based, patient-centred care.
+                Dr. Maithri Wickramasinghe (Dr Wick) – MBChB, MRCGP, FRACGP.
+                UK-trained and Melbourne-based General Practitioner serving
+                Camberwell and Hawthorn East with evidence-based,
+                patient-centred care.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-centre lg:justify-start">
                 <a
@@ -69,11 +70,12 @@ const Index = () => {
               Bulk Billing GP Services Near You
             </h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              Dr. Wick brings over 25 years of diverse medical experience from
-              the UK and Australia, blending modern clinical standards with a
-              personal touch. Whether it's preventative health, chronic care, or
-              minor procedures, Dr. Wick ensures every patient receives
-              tailored, comprehensive care.
+              Dr Wick Australia - Dr. Maithri Wickramasinghe brings over 25
+              years of diverse medical experience from the UK and Australia,
+              blending modern clinical standards with a personal touch. Whether
+              it's preventative health, chronic care, or minor procedures, Dr
+              Wick Camberwell ensures every patient receives tailored,
+              comprehensive care.
             </p>
           </div>
         </div>
@@ -501,8 +503,9 @@ const Index = () => {
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-centre">
             <p className="text-gray-400">
-              © 2025 Dr. Maithri Wickramasinghe. All rights reserved. | Trusted
-              GP in Camberwell & Hawthorn East
+              © 2025 Dr. Maithri Wickramasinghe. All rights reserved. | Dr Wick
+              Australia | Dr Wick Camberwell | Trusted GP in Camberwell &
+              Hawthorn East
             </p>
           </div>
         </div>
