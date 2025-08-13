@@ -18,7 +18,20 @@
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://drwick.com.au" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-    <link rel="icon" href="/favicon.png" />
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    <!-- PWA Icons -->
+    <meta name="theme-color" content="#1e40af" />
+    <meta name="msapplication-TileColor" content="#1e40af" />
+    <meta name="msapplication-TileImage" content="/favicon.png" />
+    <link rel="manifest" href="/manifest.json" />
 
     <!-- Open Graph / Facebook -->
     <meta
@@ -31,10 +44,17 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://drwick.com.au" />
+    <meta property="og:image" content="https://drwick.com.au/favicon.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dr Wick Medical Centre Logo" />
+    <meta property="og:site_name" content="Dr. Wick Medical Centre" />
     <meta property="og:locale" content="en_AU" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@drwick" />
+    <meta name="twitter:creator" content="@drwick" />
     <meta
       name="twitter:title"
       content="Trusted GP in Camberwell & Hawthorn East | Dr. Wick Medical Centre"
@@ -43,6 +63,8 @@
       name="twitter:description"
       content="Dr Wick Australia - Looking for Dr Wick Camberwell? Dr Maithri Wickramasinghe is a trusted family GP in Camberwell & Hawthorn East. Book an online doctor appointment with Dr Wick today."
     />
+    <meta name="twitter:image" content="https://drwick.com.au/favicon.png" />
+    <meta name="twitter:image:alt" content="Dr Wick Medical Centre Logo" />
 
     <!-- Local Business Schema -->
     <script type="application/ld+json">
@@ -57,6 +79,13 @@
         ],
         "description": "Dr Wick - Trusted family GP in Camberwell & Hawthorn East offering bulk billing services. Dr Maithri Wickramasinghe provides comprehensive medical care.",
         "url": "https://drwick.com.au",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://drwick.com.au/favicon.png",
+          "width": "512",
+          "height": "512"
+        },
+        "image": "https://drwick.com.au/favicon.png",
         "telephone": "[Phone Number]",
         "address": {
           "@type": "PostalAddress",
